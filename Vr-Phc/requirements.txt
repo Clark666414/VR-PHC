@@ -1,0 +1,17 @@
+# Pico-to-PHC Full-Body Fitting - Dependencies
+
+# Core dependencies
+numpy>=1.19.0
+torch>=1.8.0
+scipy>=1.7.0
+
+# SMPL and body models
+smplx>=0.1.28
+
+# Visualization
+open3d>=0.13.0
+matplotlib>=3.3.0
+
+# Data handling
+pickle5; python_version < '3.8'
+tqdm
